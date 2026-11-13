@@ -69,3 +69,45 @@ footer {
         padding: 60px 15px;
     }
 }
+
+/* Developer 3 - Contact Form */
+
+#contactForm {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#contactForm textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contactForm button {
+    background-color: #173b67;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #24558a;
+}
+
+#responseMessage {
+    color: green;
+    font-weight: bold;
+}
